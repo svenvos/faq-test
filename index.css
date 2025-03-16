@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Typography */
+h1 {
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #F4A261;
+}
+
+h2 {
+    opacity: 0.9;
+}
+
+h2, i {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+p {
+    padding-bottom: 10px;
+    font-size: 18px;
+    display: none;
+    transition: .5s;
+}
+
+.toggle-answer {
+    display: block;
+}
+
+/* Icons */
+i {
+    padding: 10px;
+    transition: .3s;
+}
+
+.arrow-reverse {
+    transform: rotate(180deg);
+}
+
+/* Layout */
+.faq-container {
+    max-width: 700px;
+    margin: 20px auto 0;
+}
+
+ul {
+    margin-top: 40px;
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.question-container {
+    display: flex;
+    justify-content: space-between;
+}
